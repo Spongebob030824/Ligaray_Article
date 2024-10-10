@@ -1,0 +1,127 @@
+/* General body styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f7f9fb;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Header styling */
+header {
+    background-color: #004aad; /* Dark Blue */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 2em;
+}
+
+/* Navigation menu styling */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    background-color: #0056b3; /* Slightly lighter blue */
+    margin: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+    border: 2px solid white; /* White border around buttons */
+    border-radius: 8px; /* Rounded corners */
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #00397b; /* Darker blue on hover */
+    border-color: #f7f9fb; /* Change border color on hover */
+}
+
+/* Container for main content */
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 3px solid #004aad; /* Matching border color */
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+/* Content section styles */
+.content {
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fefefe;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    border: 2px solid #0056b3; /* Matching border with a lighter tone */
+}
+
+/* Image section */
+.image-section {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.image-section img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    border: 3px solid #004aad; /* Matching image border */
+}
+
+.caption {
+    text-align: center;
+    color: #666;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+/* Footer styling */
+footer {
+    background-color: #004aad;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 50px;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer text */
+footer p {
+    margin: 0;
+    font-size: 0.9em;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
+
+    header {
+        font-size: 1.5em;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        font-size: 1.2em;
+    }
+}
